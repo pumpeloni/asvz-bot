@@ -2,7 +2,7 @@
 A bot for Raspberry Pi OS that enrolls you into ASVZ courses
 
 # Installation
-### The installation and the bot needs these preinstalled packages ---
+### The installation and the bot needs these packages
 - python3
 - python3 pip
 - virtualenv
