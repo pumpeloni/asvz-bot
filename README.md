@@ -42,5 +42,7 @@ to use the bot automatically use crontab like discribed below
 crontab -e
 # enter new line:
 min hour * * day bash [enter copied path]
-# example for lesson that the start of enrolment is at 18:00
+# example for lesson that the start of enrollment is at 18:00
 00 17 * * 3 bash /home/pi/asvz-bot/jobs/beachvolley_1.sh
+```
+--> The bot needs a moment to boot up, because of that start the cronjob at least 5min before the enrollment starts
