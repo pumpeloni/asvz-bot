@@ -276,7 +276,7 @@ def main():
     enrollment_start_time -= timedelta(hours=enrollemnt_time_difference)
 
     logging.info("Script started")
-    #waiting_fct(enrollment_start_time)
+    waiting_fct(enrollment_start_time)
 
 
     asvz_enroll(
