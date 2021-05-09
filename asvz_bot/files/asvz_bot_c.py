@@ -264,7 +264,7 @@ def main():
     else:
         plan_day = "0" + str(start_time.day)
 
-    if(start_time.hour >= 10):
+    if(start_time.month >= 10):
         plan_month = str(start_time.month)
     else:
         plan_month = "0" + str(start_time.month)
